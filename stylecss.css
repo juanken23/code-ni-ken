@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.parent1{
+    height: 100vh;
+    width: 100vw ;
+    background-color: silver;
+}
+.parent2{
+    height: 100vh;
+    width: 100vw ;
+    background-color: silver;
+}
+.child1{
+    height: 50%;
+    width: 50%;
+    background-color: gold;
+}
+.child2{
+    height: 25%;
+    width: 25%;
+    background-color: gold;
+}
+
+p{
+    font-size: 100px;
+    font-weight: 500;
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+}
+
+h1{
+    border: 10px dotted rgb(60, 255, 0);
+    padding: 50px;
+    margin: 50px;
+}
+
+h2{
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+sec1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+sec2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
