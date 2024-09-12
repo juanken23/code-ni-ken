@@ -3,33 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    height: 70px;
-    width: 100%;
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: darkblue;
-}
-.logo{
-    margin: 20px;
-    width: 50%;
-
-}
-.nav{
-    margin: 20px;
-    width: 50%;
-}
-ul{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-
-
 section{
     height: 100vh;
     width: 100%;
@@ -40,134 +13,185 @@ section{
 .parent{
     height: 50%;
     width: 50%;
-    border: 2px solid white;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-}
-.child{ 
-    height: 20%;
-    width: 20%;
-    border: 2px solid white;
-    display: flex;
+    gap: 5px;
     justify-content: center;
-    align-items: center;
- 
+   
 }
-.child1{
-    background-color: black;
-}
-.child2{
-    background-color: gold;
-}
-.child3{
-    background-color: cyan;
-}
-.child4{
-    background-color: olive;
-}
-.child5{
-    background-color: chocolate;
-}
-
-
-
-section1{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.con{
-    height: 50%;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.pro{
-    height: 100%;
-    width: 50%;
-    border: 2px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.pro1{
-    background-color: cornflowerblue;
-}
-.pro2{
-    background-color: maroon;
-}
-
-
-section{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
- 
 .child{
     height: 100%;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .child1{
-    background-color: orange;
-    display: flex;
-    justify-content: flex-start;
-    align-items: end;
+    background-color: burlywood;
 }
 .child2{
-    background-color: pink;
+    background-color: cadetblue;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
 }
-.child11{
-    width: 50%;
+
+.parent1{
     height: 50%;
-    background-color: pink;
-}
-.child22{
     width: 50%;
-    height: 50%;
-    background-color: magenta;
-}
-.child2{
-    background-color: green;
-    display: flex;
-}
-.child3{
     display: flex;
     align-items: center;
+    gap: 5px;
     justify-content: center;
-    background-color: teal;
 }
-.child33{
-    width: 25%;
-    height: 50%;
-    background-color: green;
-}
-.parent1{
+.childa{
     height: 100%;
     width: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child3{
+    background-color: burlywood;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.child4{
+    background-color: burlywood;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    
+}
+
+.one{
+    height: 50%;
+    width: 50%;
+    background-color: cadetblue;
+
+}
+.two{
+    height: 50%;
+    width: 50%;
+    background-color: cadetblue;
+
+}
+
+.parent2{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+.childb{
+    height: 100%;
+    width: 33.33%;
+
+}
+.child5{
+    background-color: burlywood;
+    display: flex;
+
+}
+.child6{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child7{
+    background-color: burlywood;
+    display: flex;
+
+}
+
+.three{
+    height: 50%;
+    width: 50%;
+
+
+}
+.four{
+    height: 75%;
+    width: 25%;
+    background-color: tan;
+    justify-content: center;
+    align-items: center;
+
+}
+.baby{
+    height: 50%;
+    width: 50%;
+    background-color: peachpuff;
+}
+.five{
+    height: 50%;
+    width: 50%;
+}
+
+.parent3{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.child8{
+    height: 100%;
+    width: 25%;
+    background-color: cadetblue;
+    display: flex;
+
+}
+.child9{
+    height: 100%;
+    width: 25%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child10{
+    height: 100%;
+    width: 25%;
+    background-color: cadetblue;
+    display: flex;
+
+}
+.child11{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
     flex-direction: column;
-    background-color: white;
-    gap: 2px;
-   
 }
-.child15{
-    height: 100%;
+
+.six{
+    height: 50%;
     width: 100%;
-    background-color: green;
+    background-color: silver;
+    justify-content: center;
+    align-items: center;
+
+
 }
-.child20{
-    height: 100%;
+.seven{
+    height: 50%;
     width: 100%;
-    background-color: orange;
+    background-color: gold;
+    justify-content: center;
+    align-items: center;
+
 }
